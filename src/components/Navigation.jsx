@@ -6,7 +6,7 @@ export default function Navigation() {
   return (
     <nav className="functions">
       <div className="nav">
-        <Link to="/" className={`data-wrapper ${location.pathname==="/instagram-profile"&&"active"}`} >
+        <Link to="/instagram-profile/" className={`data-wrapper ${location.pathname==="/instagram-profile/"&&"active"}`} >
           <svg
             fill="currentColor"
             height="12"
@@ -73,7 +73,7 @@ export default function Navigation() {
           </svg>
           <p>POSTS</p>
         </Link>
-        <Link to="/feed" className={`data-wrapper ${location.pathname==="/instagram-profile/feed"&&"active"}`}>
+        <Link to="/instagram-profile/feed" className={`data-wrapper ${location.pathname==="/instagram-profile/feed"&&"active"}`}>
           <svg
             fill="currentColor"
             height="12"
@@ -118,7 +118,7 @@ export default function Navigation() {
           </svg>
           <p>FEED</p>
         </Link>
-        <Link to="/reels" className={`data-wrapper ${location.pathname==="/instagram-profile/reels"&&"active"}`}>
+        <Link to="/instagram-profile/reels" className={`data-wrapper ${location.pathname==="/instagram-profile/reels"&&"active"}`}>
           <svg
             fill="currentColor"
             height="12"
@@ -174,7 +174,7 @@ export default function Navigation() {
           </svg>
           <p>REELS</p>
         </Link>
-        <Link to="/tagged" className={`data-wrapper ${location.pathname==="/instagram-profile/tagged"&&"active"}`}>
+        <Link to="/instagram-profile/tagged" className={`data-wrapper ${location.pathname==="/instagram-profile/tagged"&&"active"}`}>
           <svg
             fill="currentColor"
             height="12"
