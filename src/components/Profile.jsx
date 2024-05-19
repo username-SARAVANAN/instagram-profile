@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Button from "../components/UI/Button";
 import useFetch from "../hooks/useFetch";
 import numberFormatter from "../utils/numberFormatter";
+import image from "../../public/my-Image/image.png"
 
 export default function Profile() {
   const [user,setUser]=useState();
@@ -15,7 +16,7 @@ export default function Profile() {
     <div>
       <div className="profile">
         <div className="image-wrapper">
-          <img src={user?.img ||"./instagram-profile/image.png"} />
+          <img src={user?.img || image} />
         </div>
         <div className="profile-details">
           <div className="profile-name">
