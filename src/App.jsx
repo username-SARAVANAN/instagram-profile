@@ -11,11 +11,11 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-        <Route path="/" element={<Instagram />}>
+        <Route path="/instagram-profile" element={<Instagram />}>
           <Route index element={<ContentArea />} />
-          <Route path="/reels" element={<ContentArea />} />
-          <Route path="/feed" element={<ContentArea />} />
-          <Route path="/tagged" element={<ContentArea />} />
+          <Route path="/instagram-profile/reels" element={<ContentArea />} />
+          <Route path="/instagram-profile/feed" element={<ContentArea />} />
+          <Route path="/instagram-profile/tagged" element={<ContentArea />} />
         </Route>
       </Routes>
       <Footer />

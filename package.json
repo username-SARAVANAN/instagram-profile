@@ -2,7 +2,7 @@
   "name": "instagram",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://saravanan.github.io/instagram-profile/",
+  "homepage": "https://saravanan.github.io/instagram-profile",
   "type": "module",
   "scripts": {
     "dev": "vite --port 4000",

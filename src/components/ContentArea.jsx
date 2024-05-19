@@ -58,7 +58,7 @@ export default function ContentArea() {
   return (
     <>
       <Navigation />
-      {data&&<div className={location.pathname==="/reels"?"reels-area":"content-area"}>
+      {data&&<div className={location.pathname==="/instagram-profile/reels"?"reels-area":"content-area"}>
         {data.map((item, index) => (
           <div
             key={index}
