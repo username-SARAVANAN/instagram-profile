@@ -15,7 +15,7 @@ export default function Profile() {
     <div>
       <div className="profile">
         <div className="image-wrapper">
-          <img src={user?.img ||"../../public/image.png"} />
+          <img src={user?.img ||"./instagram-profile/image.png"} />
         </div>
         <div className="profile-details">
           <div className="profile-name">
